@@ -8,21 +8,21 @@ function getIt() {
 
 function frameIt() {
   $( 'img' ).on( 'load', function() {
-    $(this).addClass('tasty')
+    $( this ).addClass( 'tasty' )
   })
 }
 
 function pressIt() {
   // g = 71
-  $( 'form input' ).on( 'keydown', function(c) {
-    if( parseInt(c,10) === 71 )
-      alert('G!')
+  $( 'form input' ).on( 'keydown', function( c ) {
+    if( parseInt( c,10 ) === 71 )
+      alert( 'G!' )
   })
 }
 
 function submitIt() {
   $( 'form' ).on( 'submit', function() {
-    alert('Your form is going to be submitted now.')
+    alert( 'Your form is going to be submitted now.' )
   })
 }
 
