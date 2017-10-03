@@ -14,7 +14,7 @@ function frameIt() {
 
 function pressIt() {
   // g = 71
-  $( 'input' ).on( 'keydown', function(c) {
+  $( 'form input' ).on( 'keydown', function(c) {
     if( parseInt(c,10) === 71 )
       alert('G!')
   })
